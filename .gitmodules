@@ -1,0 +1,6 @@
+[submodule "third_party/wallpaper-engine-kde-plugin"]
+	path = third_party/wallpaper-engine-kde-plugin
+	url = https://github.com/catsout/wallpaper-engine-kde-plugin.git
+[submodule "plugin"]
+	path = plugin
+	url = https://github.com/K4RLT/dde-desktop-videowallpaper-plugin.git

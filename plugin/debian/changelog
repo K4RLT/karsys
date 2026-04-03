@@ -1,0 +1,30 @@
+dde-desktop-videowallpaper-plugin (1.3) stable; urgency=medium
+
+  * fix: HiDPI render correction using physical pixels for mpv FBO
+    (contributed by @DonkeyKongG3me on Telegram)
+  * fix: config cache not updating after external DConfig change
+  * fix: enable/disable handler guard was always blocking turnOn/turnOff
+  * fix: ffprobe no longer blocks the UI thread when selecting a video
+  * fix: play() and refreshSource() no longer race to double-load video
+  * fix: turnOn() leaked watcher and timer on double-call
+  * fix: getVideos() now filters by video extension only
+  * fix: use qobject_cast instead of dynamic_cast in event filter
+
+ -- K4RLT <karl@karl-pc>  Mon, 09 Mar 2026 08:57:41 +0000
+
+dde-desktop-videowallpaper-plugin (1.2) stable; urgency=medium
+
+  * be compatible with deepin 25
+  * remove Qt5 support, focusing solely on Qt6
+  * fix org.deepin.dde-shell root widget has titlebar
+  * use libmpv instead of QtMultimedia
+  * fix dde-shell random crash issue
+  * be compatible with dde-file-manager 6.5.7
+
+ -- K4RLT <karl@karl-pc>  Fri, 14 Mar 2025 11:05:00 +0800
+
+dde-desktop-videowallpaper-plugin (1.1) stable; urgency=medium
+
+  * Initial release
+
+ -- K4RLT <karl@karl-pc>  Tue, 16 Apr 2024 11:11:00 +0800
